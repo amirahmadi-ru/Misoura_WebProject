@@ -1,0 +1,77 @@
+/*start course section styles*/
+.section-title span {
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+}
+.section-title span::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: royalblue;
+    position: absolute;
+    top: 12px;
+    left: 84px;
+    border-radius: 2px;
+}
+.section-title span::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: royalblue;
+    position: absolute;
+    top: 12px;
+    left: -52px;
+    border-radius: 2px;
+}
+.row .card .card-header img{
+    width: a;
+    height: 205px;
+    border-radius: 10px;
+    display: block;
+}
+.row .card .card-body a{
+    font-size: 18px;
+    color: rgb(37, 41, 73);
+}
+.row .card .card-body .course-title a {
+    top: 0;
+
+}
+.card {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    background-color: #ffffff;
+}
+.card-body {
+    margin-top: 8px;
+}
+.card-header .card-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease-in;
+}
+.card:hover .card-overlay {
+    opacity: 1;
+}
+.card .card-overlay p {
+    color: #efefef;
+    font-size: 31px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: .7;
+}
+.course-wrapper {
+    background-image: url("../img/dynamic-particle-backgrounds-on-your-website-768x397.png");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+/*end course section styles*/

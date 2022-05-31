@@ -1,0 +1,31 @@
+@import '_contact.css';
+@import '_nav.css';
+@import '_header.css';
+@import '_course.css';
+@import '_aboutus.css';
+@import '_other.css';
+
+@font-face {
+    font-family: Shabnam-Medium;
+    src: url(../fonts/Shabnam.woff) format("woff"),
+         url(../fonts/Shabnam.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+*,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Shabnam-Medium;
+}
+body {
+    direction: rtl;
+}
+a {
+    text-decoration: none;
+}
+li,ol,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

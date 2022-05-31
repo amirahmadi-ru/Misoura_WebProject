@@ -1,0 +1,58 @@
+/*start aboutus section styles*/
+.section-title2 span {
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+}
+.section-title2 span::before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: royalblue;
+    position: absolute;
+    top: 12px;
+    left: 72px;
+    border-radius: 2px;
+}
+.section-title2 span::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: royalblue;
+    position: absolute;
+    top: 12px;
+    left: -52px;
+    border-radius: 2px;
+}
+.about-us-left-side {
+    background-color: rgb(238, 238, 238);
+    padding: 40px;
+    border-radius: 30px;
+}
+.about-us-left-side h4 {
+    font-size: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    color: rgb(46, 46, 46);
+}
+.about-us-left-side p {
+    padding: 26px;
+    font-size: 15px;
+    line-height: 32px;
+    color: rgb(71, 71, 71);
+}
+.about-us-left-side a {
+    background-color: rgb(154, 146, 175);
+    padding: 8px;
+    border-radius: 5px;
+    color: rgb(245, 245, 245);
+    float: left;
+    margin-left: 30px;
+    font-size: 15px;
+    transition: .2s ease-in;
+}
+.about-us-left-side a:hover {
+    border-radius: 0 12px 0 12px;
+    background-color: rgb(122, 115, 139);
+}
+
+/*end aboutus section styles*/
